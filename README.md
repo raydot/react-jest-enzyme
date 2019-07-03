@@ -4,6 +4,15 @@ Following tutorial "Testing React with Jest and Enzyme" by Dominic Fraser.  http
 # Jest
 <em>Jest is a JavaScript unit testing framework used by Facebook to test services and React applications.</em>
 
+Jest will look for tests in any of the following places:
+<ol>
+  <li>Files with `.js` suffixes in `__tests__` folders</li>
+  <li>Files with a `.test.js` suffix</li>
+  <li>Files with a `.spec.js` suffix</li>
+</ol>
+
+Also: it is convention to put each test file next to the code it is testing.  (`./MyComponent` vs. `../../MyComponent` etc.)
+
 # Enzyme
 <em>Enzyme is a JavaScript Testing utility, created by Airbnb, that makes it easier to assert, manipulate, and traverse your React Components' outcome.</em>
 
